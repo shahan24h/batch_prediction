@@ -1,7 +1,7 @@
 import json
 
-input_file = r"\\172.23.218.118\allshares\documents\Batch Classify\ocr_source.json"
-output_file = r"\\172.23.218.118\allshares\documents\Batch Classify\ocr_results.jsonl"
+input_file = r"ocr_source.json"
+output_file = r"ocr_results.jsonl"
 
 with open(input_file, "r", encoding="latin-1", errors="ignore") as f_in, \
      open(output_file, "w", encoding="utf-8") as f_out:
