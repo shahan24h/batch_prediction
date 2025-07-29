@@ -3,8 +3,8 @@ import csv
 import requests
 
 API_URL = "https://gore-toolbar-tide-accessed.trycloudflare.com/predict"
-input_file = r"\\172.23.218.118\allshares\documents\Batch Classify\ocr_results.jsonl"
-output_file = r"\\172.23.218.118\allshares\documents\Batch Classify\classified_results.csv"
+input_file = r"ocr_results.jsonl"
+output_file = r"classified_results.csv"
 
 with open(output_file, mode="w", newline="", encoding="utf-8") as csvfile:
     writer = csv.writer(csvfile)
