@@ -1,5 +1,5 @@
 # batch_prediction
-continuous batch prediction using classification model. this script give prediction results in csv  format as well as json. 
+continuous document batch prediction using classification model. this script give prediction results in csv  format as well as json. 
 # Batch Prediction Scripts
 
 This repository contains scripts for batch classification and prediction tasks.  
